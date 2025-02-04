@@ -19,7 +19,7 @@ def fun():
 data=fun()
 st.write(data)
 
-df=pd.read_excel('Bankruptcy (2).xlsx')
+df=pd.read_excel('Bankruptcy Dataset.xlsx')
 
 lb=LabelEncoder()
 df['class']=lb.fit_transform(df["class"])
